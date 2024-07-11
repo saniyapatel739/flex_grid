@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .outer-container{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 100vh;
+            background-color: lightblue;
+        }
+        .first-box{
+            width: 50%;
+            height: 100%;
+            background-color: blue;
+        }
+        .second-box{
+            width: 50%;
+            height: 100%;
+            background-color: brown;
+            display: flex;
+            flex-direction: column;
+        }
+        .secondbox-one{
+            width: 100%;
+            height: 50%;
+            background-color: lightslategray;
+        }
+        .secondbox-two{
+            width: 100%;
+            height: 50%;
+            background-color: lightgoldenrodyellow;
+        }
+        .external-web-page{
+            width: 100%;
+            height: 50%;
+            border-width: 5px;
+        }
+        .audio-player{
+            width: 100%;
+            height: 100%;
+        }
+        .video-player{
+            width: 60%;
+            height: 70%;
+        }
+
+    </style>
+   
+</head>
+<body style="margin: 0;">
+    <div class="outer-container">
+        <div class="first-box">
+            <video class="video-player"
+             src="./boilerplate.html/assests/big_buck_bunny_720p_1mb.mp4"
+            controls
+            ></video>
+        </div>
+        <div class="second-box">
+        <div class="secondbox-one">
+          <iframe class="external-web-page" src="flexproject.html" frameborder="0" style="width: 100%; height: 100%;"></iframe>
+          
+        </div>
+        <div class="secondbox-two">
+           <audio 
+           class="audio-player"
+           src="./boilerplate.html/assests/audio-one.mp3
+           "
+           controls
+           ></audio>
+            
+        </div>
+    </div>
+        <div></div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .label-style {
+            font-size: 32px;
+            font-family: cursive;
+            color: black;
+        }
+
+        .input-field {
+            width: 300px;
+            height: 44px;
+            background-color: aqua
+        }
+        .fieldset-style{
+            width: 200px;
+            height: 20px;
+            color: blue;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form>
+        <fieldset>
+            <legend class="fieldset-style">Personal</legend>
+            <label class="label-style"> First Name</label>
+            <input type="text" class="input-field">
+            <br />
+
+            <label class="label-style"> Last Name</label>
+            <input type="text" class="input-field">
+            <br />
+            <label class="label-style">D.O.B</label>
+            <input type="date" class="input-field">
+            <br />
+            <label class="label-style">Contact Number</label>
+            <input type="number" class="input-field">
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+            <legend class="fieldset-style">Profession</legend>
+            <label class="label-style"> Web Devlopment</label>
+            <input type="text" class="input-field">
+            <br />
+
+            <label class="label-style"> Mobile Devlopment</label>
+            <input type="text" class="input-field">
+            <br />
+            <label class="label-style"> Backend Devlopment</label>
+            <input type="text" class="input-field">
+            <br />
+            <label class="label-style"> Database Devlopment</label>
+            <input type="text" class="input-field">
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+            <legend class="fieldset-style"> Enroll for course</legend>
+            <label class="label-style"> Class Timing</label>
+            <input type="time" class="input-field">
+            <label for="batch" class="label-style">Pick a Batch</label>
+            <select id="batch" class="input-field">
+                <option value="proficient">proficient</option>
+                <option value="visinory">visinory</option>
+                <option value="junior">junior</option>
+            </select>
+            <br>
+            <label class="label-style">Laptop-</label>
+            <label class="label-style">Windows</label>
+            <input type="checkbox" class="input-smallbox" value="window">
+            <label class="label-style">Mac</label>
+            <input type="checkbox" class="input-smallbox" value="Mac">
+            <label class="label-style">Linux</label>
+            <input type="checkbox" class="input-smallbox" value="Linux">
+
+            <br>
+            <label class="label-style">education-</label>
+            <br>
+            <label class="label-style">10th</label>
+            <input type="radio" name="one">
+            <br>
+            <label class="label-style">11th</label>
+            <input type="radio" name="one">
+
+        </fieldset>
+        <br />
+        <br />
+        <fieldset>
+            <legend class="fieldset-style">Email</legend>
+            <label class="label-style">email</label>
+            <input type="text" class="input-field">
+            <br />
+            <label class="label-style">Passwords</label>
+            <input type="text" class="input-field">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
